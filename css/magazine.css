@@ -1,0 +1,65 @@
+.sidebar{
+    height: 100%;
+    width:250px;
+    position:fixed;
+    background-color: rgb(170, 218, 247);
+   
+    display: flex;
+    flex-direction: column;
+   }
+   .sidebar a{
+       text-align: center;
+       padding: 1em;
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+       
+   }
+   
+   .sidebar a:hover{
+       background-color: rgb(157, 162, 221);
+       font-weight: bold;
+   }
+   
+   #content {
+       margin-left: 250px;
+       background-color: azure;
+   }
+   
+   #content .titles {
+       padding: 4em;
+   }
+   /* selecciona todos los elementos <a> que sean hijos directos de un elemento con class sidebar */
+   /* selecciona todos los elementos <a> que esten dentro de un elementos con class , sidebar a */
+   /* GALLERY */
+   #gallery{
+       display: flex;
+       flex-wrap: wrap;
+       padding: 0 4px;
+   }
+   #gallery .column{
+       /* width: 25%; */
+       flex: 25%;
+       padding: 0 4px;
+   }
+   #gallery .column img{
+       margin-top: 8px;
+   }
+   
+   /* MEDIA QUERIES https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+   /* SIEMPRE DEBEN ESTAR AL FINAL DEL ARCHIVO CSS */
+   
+   /* TABLET */
+   @media screen and (max-width:850px){
+       #gallery .column{
+           
+           flex: 50%;
+           }
+        }
+   
+   /* MOBILE */
+   @media screen and (max-width:555px){
+       #gallery .column{
+           
+           flex: 100%;
+           }
+       }
