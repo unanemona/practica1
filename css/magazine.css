@@ -127,6 +127,28 @@
   }
   
 
+  /* GALLERY */
+
+  img {
+    width: 100%;
+    height:auto;
+    vertical-align: middle;
+}
+
+
+ #gallery {
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ #gallery .column {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+#gallery .column img{
+  margin-top: 8px;
+}
 
   
 
