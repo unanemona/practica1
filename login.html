@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/magazine.css">
-    <title>Magazine</title>
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
 
@@ -30,31 +30,65 @@
         </div>
     </div>
 
-    <section id="gallery">
-        <div class="column">
-            <img src="img/BUTTERFLY.jpg" alt="">
-            <img src="img/CHERRY.jpg" alt="">
-            <img src="img/DRAWN.jpg" alt="">
-            <img src="img/FUZZY.jpg" alt="">
-            <img src="img/COLL.jpg" alt="">
-            <img src="img/TRENT PARKE.jpg" alt="">
-        </div>
-        <div class="column">
-            <img src="img/PANORAAM.jpg" alt="">
-            <img src="img/Sergio-Larrain.jpg" alt="">
-            <img src="img/XANNY.jpg" alt="">
-            <img src="img/Eve-Arnold-1.jpg" alt="">
-            <img src="img/Nanna-Heitmann.jpg" alt="">
-            <img src="img/lon16254-teaser-story-big.jpg" alt="">
-        </div>
-        <div class="column">
-            <img src="img/lon19547-teaser-story-big.jpg" alt="">
-            <img src="img/par86587-teaser-story-big.jpg" alt="">
-            <img src="img/nn11481494-teaser-story-big.jpg" alt="">
-            <img src="img/Anuar-Patjane-Floriuk.jpg" alt="">
-            <img src="img/mg16406-teaser-story-big.jpg" alt="">
-            <img src="img/BLUR_BOD-1280x1280.jpg" alt="">s
-        </div>
-    </section>
+
+    <section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center h-100">
+				<div class="card-wrapper">
+					<div class="brand">
+						<img src="img/logo.jpg" alt="logo">
+					</div>
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title">Login</h4>
+							<form method="POST" class="my-login-validation" novalidate="">
+								<div class="form-group">
+									<label for="email">E-Mail Address</label>
+									<input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+									<div class="invalid-feedback">
+										Email is invalid
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="password">Password
+										<a href="forgot.html" class="float-right">
+											Forgot Password?
+										</a>
+									</label>
+									<input id="password" type="password" class="form-control" name="password" required data-eye>
+								    <div class="invalid-feedback">
+								    	Password is required
+							    	</div>
+								</div>
+
+								<div class="form-group">
+									<div class="custom-checkbox custom-control">
+										<input type="checkbox" name="remember" id="remember" class="custom-control-input">
+										<label for="remember" class="custom-control-label">Remember Me</label>
+									</div>
+								</div>
+
+								<div class="form-group m-0">
+									<button type="submit" class="btn btn-primary btn-block">
+										Login
+									</button>
+								</div>
+								<div class="mt-4 text-center">
+									Don't have an account? <a href="register.html">Create One</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="footer">
+						Copyright &copy; 2017 &mdash; Your Company 
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <footer></footer>
+      <script src="js/bootstrap.js"></script>
 </body>
 </html>
