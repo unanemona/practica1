@@ -1,6 +1,6 @@
 .header-blue {
-    background: linear-gradient(100deg, #000000, #ffffff);
-    padding-bottom: 80px;
+    background: black;
+    padding-bottom: 1.3em;
     font-family: 'Source Sans Pro', sans-serif;
   }
   
@@ -36,10 +36,15 @@
     color: #00dbcc;
   }
 
+  .header-blue .navbar .container-fluid .navbar-brand img{
+    width: 250px; /* Cambia el valor según el tamaño deseado en píxeles */
+    display: block;
+    margin: 0 auto;
+  }
   
   @media (min-width:768px) {
     .header-blue .navbar .navbar-collapse {
-      border-color: transparent;
+      border-color: none;
       margin: 0;
     }
   }
@@ -51,7 +56,7 @@
   }
   
   .header-blue .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
-    background: none;
+    background-color: aquamarine;
   }
   
   @media (min-width: 768px) {
@@ -80,7 +85,7 @@
   .header-blue .navbar .navbar-nav > li > .dropdown-menu {
     margin-top: -5px;
     box-shadow: 0 4px 8px rgba(0,0,0,.1);
-    background-color: #6c6c6c;
+    background-color: none;
     border-radius: 2px;
   }
   
@@ -96,7 +101,7 @@
   .header-blue .action-button, .header-blue .action-button:not(.disabled):active {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 40px;
-    color: #ffffff;
+    color: #96b2ff;
     box-shadow: none;
     text-shadow: none;
     padding: .3rem .8rem;
@@ -116,12 +121,34 @@
     border: none;
     border-bottom: 1px solid transparent;
     border-radius: 0;
-    color: #ffffff;
+    color: #96b2ff;
     box-shadow: none;
     color: inherit;
-    transition: border-bottom-color 0.3s;
+    
   }
   
   .header-blue .navbar .form-inline .search-field:focus {
     border-bottom: 1px solid #ffffff;
+  }
+
+.h-100 {
+  padding-top: 1em;
+}
+
+.-bs-card-border-width {
+border: none;}
+
+.h-100 .card-wrapper .card-body .card-title {
+  padding-top: 0.4em;
+  
+}
+.footer{
+    position: fixed; /* Fija el pie de página en la ventana del navegador */
+    bottom: 0; /* Coloca el pie de página en la parte inferior */
+    left: 0; /* Alinea el pie de página a la izquierda */
+    width: 100%; /* Establece el ancho al 100% del ancho de la ventana */
+    background-color: #333; /* Establece el color de fondo del pie de página */
+    color: #fff; /* Establece el color del texto del pie de página */
+    padding: 10px; /* Agrega un espacio interno al pie de página */
+    text-align: center; /* Centra el contenido del pie de página */
   }

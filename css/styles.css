@@ -40,6 +40,12 @@
     border-top: 1px solid rgba(116, 116, 116, 0.3);
     margin-top: .5rem;
   }
+
+  .header-blue .navbar .container-fluid .navbar-brand img{
+    width: 250px; /* Cambia el valor según el tamaño deseado en píxeles */
+    display: block;
+    margin: 0 auto;
+  }
   
   @media (min-width:768px) {
     .header-blue .navbar .navbar-collapse {
