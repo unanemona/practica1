@@ -1,3 +1,11 @@
+* {
+  border: none;
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
+  outline: none;
+}
+
 .header-blue {
     background: black;
     padding-bottom: 1.3em;
@@ -119,7 +127,7 @@
     width: 80%;
     background: none;
     border: none;
-    border-bottom: 1px solid transparent;
+    border-bottom: none;
     border-radius: 0;
     color: #96b2ff;
     box-shadow: none;
@@ -135,12 +143,12 @@
   padding-top: 1em;
 }
 
-
-
-.h-100 .card-wrapper .card-body .card-title {
-  padding-top: 0.4em;
-  
+.card-wrapper * {
+  margin-top: 10px; /* Ajusta el valor según la cantidad de espacio superior deseado */
+  margin-bottom: 10px; /* Ajusta el valor según la cantidad de espacio inferior deseado */
 }
+
+
 .footer{
     position: fixed; /* Fija el pie de página en la ventana del navegador */
     bottom: 0; /* Coloca el pie de página en la parte inferior */
