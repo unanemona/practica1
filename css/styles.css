@@ -1,7 +1,14 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
+header {
+  font-family: 'Roboto Slab', serif;
+}
+
 .header-blue {
     background: linear-gradient(135deg, #008767, #ffffff);
     padding-bottom: 80px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:font-family: 'Roboto Slab', serif;
   }
   
   @media (min-width:768px) {
