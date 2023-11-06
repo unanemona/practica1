@@ -156,6 +156,6 @@
     width: 100%; /* Establece el ancho al 100% del ancho de la ventana */
     background-color: #333; /* Establece el color de fondo del pie de página */
     color: #fff; /* Establece el color del texto del pie de página */
-    padding: 10px; /* Agrega un espacio interno al pie de página */
+    padding: 30px; /* Agrega un espacio interno al pie de página */
     text-align: center; /* Centra el contenido del pie de página */
   }
