@@ -5,15 +5,16 @@ header {
   font-family: 'Roboto Slab', serif;
 }
 
+
 .header-blue {
-    background: linear-gradient(135deg, #008767, #ffffff);
-    padding-bottom: 80px;
-    font-family:font-family: 'Roboto Slab', serif;
+    background: rgb(1, 1, 180);
+    padding-bottom: 3px;
+    font-family: 'Roboto Slab', serif;
   }
   
   @media (min-width:768px) {
     .header-blue {
-      padding-bottom: 120px;
+      padding-bottom: 1px;
     }
   }
   
@@ -44,8 +45,9 @@ header {
   }
   
   .header-blue .navbar .navbar-collapse {
-    border-top: 1px solid rgba(116, 116, 116, 0.3);
+    border-top: 0px;
     margin-top: .5rem;
+    margin-left: 20px;
   }
 
   .header-blue .navbar .container-fluid .navbar-brand img{
@@ -57,7 +59,8 @@ header {
   @media (min-width:768px) {
     .header-blue .navbar .navbar-collapse {
       border-color: transparent;
-      margin: 0;
+      margin-top: .5rem;
+      margin-left: 20px;
     }
   }
   
@@ -72,7 +75,7 @@ header {
   }
   
   .header-blue .navbar .navbar-toggler {
-    border-color: rgba(73, 73, 73, 0.3);
+    border-color: rgb(255, 255, 255);
   }
   
   .header-blue .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
@@ -105,7 +108,7 @@ header {
   .header-blue .navbar .navbar-nav > li > .dropdown-menu {
     margin-top: -5px;
     box-shadow: 0 4px 8px rgba(0,0,0,.1);
-    background-color: #6c6c6c;
+    background-color: #ffffff;
     border-radius: 2px;
   }
   
@@ -153,7 +156,12 @@ header {
     margin-top: 20px;
     text-align: center;
   }
+
+  .navbar-toggler .bi-asterisk {
+    fill: #ffffff; /* Cambia este valor al color blanco que desees */
+  }
   
+
   @media (min-width:768px) {
     .header-blue .hero {
       margin-top: 60px;
@@ -184,5 +192,13 @@ header {
     margin-bottom: 30px;
     font-weight: 300;
   }
-
-
+  .gif-container {
+    background-color: rgb(1, 1, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gif-container img {
+    max-width: 50%; /* Para asegurarse de que el GIF no se desborde del contenedor */
+  }
