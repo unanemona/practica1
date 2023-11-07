@@ -5,16 +5,23 @@
   border-color: transparent;
   outline: none;
 }
+body {
+  font-family: 'Roboto Slab', serif;
+}
+header {
+  font-family: 'Roboto Slab', serif;
+}
+
 
 .header-blue {
-    background: black;
-    padding-bottom: 1.3em;
-    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(1, 1, 180);
+    padding-bottom: 80px;
+    font-family: 'Roboto Slab', serif;
   }
   
   @media (min-width:768px) {
     .header-blue {
-      padding-bottom: 0px;
+      padding-bottom: 120px;
     }
   }
   
@@ -41,7 +48,12 @@
   }
   
   .header-blue .navbar .navbar-brand:hover {
-    color: #00dbcc;
+    color: #000000;
+  }
+  
+  .header-blue .navbar .navbar-collapse {
+    border-top: 1px solid rgba(116, 116, 116, 0.3);
+    margin-top: .5rem;
   }
 
   .header-blue .navbar .container-fluid .navbar-brand img{
@@ -52,7 +64,7 @@
   
   @media (min-width:768px) {
     .header-blue .navbar .navbar-collapse {
-      border-color: none;
+      border-color: transparent;
       margin: 0;
     }
   }
@@ -63,8 +75,16 @@
     text-decoration: none;
   }
   
+  .header-blue .navbar .navbar-collapse span .login:hover {
+    color: #ffffff;
+  }
+  
+  .header-blue .navbar .navbar-toggler {
+    border-color: rgb(255, 255, 255);
+  }
+  
   .header-blue .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
-    background-color: aquamarine;
+    background: none;
   }
   
   @media (min-width: 768px) {
@@ -93,7 +113,7 @@
   .header-blue .navbar .navbar-nav > li > .dropdown-menu {
     margin-top: -5px;
     box-shadow: 0 4px 8px rgba(0,0,0,.1);
-    background-color: none;
+    background-color: #ffffff;
     border-radius: 2px;
   }
   
@@ -101,15 +121,12 @@
     line-height: 2;
     color: #ffffff;
   }
-  
-  .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item:hover {
-    background: #ffffff;
-  }
+
   
   .header-blue .action-button, .header-blue .action-button:not(.disabled):active {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 40px;
-    color: #96b2ff;
+    color: #ffffff;
     box-shadow: none;
     text-shadow: none;
     padding: .3rem .8rem;
@@ -117,6 +134,7 @@
     transition: background-color 0.25s;
     outline: none;
   }
+ 
   
   .header-blue .navbar .form-inline label {
     color: #ffffff;
@@ -127,16 +145,42 @@
     width: 80%;
     background: none;
     border: none;
-    border-bottom: none;
+    border-bottom: 1px solid transparent;
     border-radius: 0;
-    color: #96b2ff;
+    color: #ffffff;
     box-shadow: none;
     color: inherit;
-    
+    transition: border-bottom-color 0.3s;
   }
   
   .header-blue .navbar .form-inline .search-field:focus {
     border-bottom: 1px solid #ffffff;
+  }
+  
+  .header-blue .hero {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .navbar-toggler .bi-asterisk {
+    fill: #ffffff; /* Cambia este valor al color blanco que desees */
+  }
+  
+
+  @media (min-width:768px) {
+    .header-blue .hero {
+      margin-top: 60px;
+      text-align: left;
+    }
+  }
+  
+  .header-blue .hero h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.4;
   }
 
 .h-100 {
@@ -149,13 +193,21 @@
 }
 
 
-.footer{
-    position: fixed; /* Fija el pie de página en la ventana del navegador */
-    bottom: 0; /* Coloca el pie de página en la parte inferior */
-    left: 0; /* Alinea el pie de página a la izquierda */
-    width: 100%; /* Establece el ancho al 100% del ancho de la ventana */
-    background-color: #333; /* Establece el color de fondo del pie de página */
-    color: #fff; /* Establece el color del texto del pie de página */
-    padding: 30px; /* Agrega un espacio interno al pie de página */
-    text-align: center; /* Centra el contenido del pie de página */
-  }
+.footer {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  clear: both;
+}
+
+.footer-1 {
+  clear: left;
+}
+.footer-2 {
+  clear: right;
+}
