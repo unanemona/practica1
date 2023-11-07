@@ -15,13 +15,13 @@ header {
 
 .header-blue {
     background: rgb(1, 1, 180);
-    padding-bottom: 80px;
+    padding-bottom: 3px;
     font-family: 'Roboto Slab', serif;
   }
   
   @media (min-width:768px) {
     .header-blue {
-      padding-bottom: 120px;
+      padding-bottom: 10px;
     }
   }
   
@@ -52,8 +52,9 @@ header {
   }
   
   .header-blue .navbar .navbar-collapse {
-    border-top: 1px solid rgb(255, 255, 255);
+    border-top: 0px;
     margin-top: .5rem;
+    margin-left: 20px;
   }
 
   .header-blue .navbar .container-fluid .navbar-brand img{
@@ -65,7 +66,8 @@ header {
   @media (min-width:768px) {
     .header-blue .navbar .navbar-collapse {
       border-color: transparent;
-      margin: 0;
+      margin-top: .5rem;
+      margin-left: 20px;
     }
   }
   
