@@ -14,7 +14,7 @@ header {
 
 .header-blue {
     background: rgb(1, 1, 180);
-    padding-bottom: 80px;
+    padding-bottom: 3px;
     font-family: 'Roboto Slab', serif;
   }
   
@@ -184,7 +184,18 @@ header {
 .h-100 {
 padding-top: 1em;
 }
-  
+
+.gif-container {
+  background-color: rgb(1, 1, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: -200px;
+}
+
+.gif-container img {
+  max-width: 50%; /* Para asegurarse de que el GIF no se desborde del contenedor */
+}
 
   /* GALLERY */
 

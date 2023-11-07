@@ -52,7 +52,7 @@ header {
   }
   
   .header-blue .navbar .navbar-collapse {
-    border-top: 1px solid rgba(116, 116, 116, 0.3);
+    border-top: 1px solid rgb(255, 255, 255);
     margin-top: .5rem;
   }
 
@@ -192,6 +192,10 @@ header {
   margin-bottom: 10px; /* Ajusta el valor según la cantidad de espacio inferior deseado */
 }
 
+.mt-4 .text-center {
+  padding-bottom: 30px;
+}
+
 
 .footer {
   position: absolute;
@@ -200,7 +204,7 @@ header {
   width: 100%;
   background-color: #333;
   color: #fff;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   clear: both;
 }
