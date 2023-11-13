@@ -230,3 +230,17 @@ cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" hei
   .gif-container img {
     max-width: 50%; /* Para asegurarse de que el GIF no se desborde del contenedor */
   }
+
+  footer {
+    background-color: rgb(1, 1, 180); 
+    color: white; 
+    margin-top: 1em ;
+  }
+  
+  footer .nav-link {
+    color: white;
+  }
+  
+  footer .nav-link:hover {
+    color: yellow;
+  }
