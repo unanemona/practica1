@@ -1,9 +1,37 @@
+* {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="white"/></svg>'), auto;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
 }
 header {
   font-family: 'Roboto Slab', serif;
 }
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link:hover {
+cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="yellow"/></svg>'), auto;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 2px; /* Ubica el subrayado debajo del texto */
+  left: 0;
+  width: 0;
+  border-bottom: 2px solid transparent; /* Empieza con un subrayado transparente */
+  transition: width 0.5s; /* Transición de la anchura para crear el efecto de subrayado */
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Anima la anchura para crear el subrayado */
+  border-bottom-color: yellow; /* Cambia el color del subrayado al hacer hover */
+}
+
 
 
 .header-blue {

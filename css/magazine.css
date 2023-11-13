@@ -4,6 +4,7 @@
   border-style: none;
   border-color: transparent;
   outline: none;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="white"/></svg>'), auto;
 }
 body {
   font-family: 'Roboto Slab', serif;
@@ -17,6 +18,31 @@ header {
     padding-bottom: 3px;
     font-family: 'Roboto Slab', serif;
   }
+
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link:hover {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="yellow"/></svg>'), auto;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 2px; /* Ubica el subrayado debajo del texto */
+    left: 0;
+    width: 0;
+    border-bottom: 2px solid transparent; /* Empieza con un subrayado transparente */
+    transition: width 0.5s; /* Transición de la anchura para crear el efecto de subrayado */
+}
+
+.nav-link:hover::after {
+    width: 100%; /* Anima la anchura para crear el subrayado */
+    border-bottom-color: yellow; /* Cambia el color del subrayado al hacer hover */
+}
+
   
   @media (min-width:768px) {
     .header-blue {
@@ -202,26 +228,57 @@ padding-top: 1em;
 
   /* GALLERY */
 
-  img {
-    width: 100%;
-    height:auto;
-    vertical-align: middle;
-}
 
-
- #gallery {
-  display: flex;
-  flex-wrap: wrap;
- }
-
- #gallery .column {
-  flex: 25%;
-  padding: 0 4px;
-}
-
-#gallery .column img{
-  margin-top: 8px;
-}
-
+  #gallery {
+      display: flex;
+      flex-wrap: wrap;
+  }
   
-
+  #gallery .column {
+      flex: 25%;
+      padding: 0 4px;
+      position: relative; /* Para el cursor personalizado */
+  }
+  
+  #gallery .column .image-container {
+      position: relative;
+      margin-top: 8px;
+      overflow: hidden; /* Para recortar el contenido que se desborde */
+  }
+  
+  #gallery .column .image-container img {
+      width: 100%;
+      height: auto;
+      display: block; /* Para evitar espacios debajo de las imágenes */
+  }
+  
+  #gallery .column .image-container .image-content {
+      position: absolute;
+      bottom: 0; /* Alinea el contenido debajo de la imagen */
+      width: 100%;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 10px;
+      transition: background-color 0.3s; /* Transición para el cambio de color */
+      transform: translateY(100%);
+  }
+  
+  #gallery .column .image-container:hover .image-content {
+      background: rgba(255, 255, 0, 0.9); /* Cambia a amarillo al pasar el ratón */
+      transform: translateY(0);
+  }
+  
+  #gallery .column .image-container:hover {
+      cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="white"/></svg>'), auto;
+      /* Cambia a un círculo blanco al pasar el ratón */
+  }
+  
+  #gallery .column .image-container .image-content h3,
+  #gallery .column .image-container .image-content p {
+      margin: 5px 0;
+  }
+ 
+  #gallery .column .image-container img:hover {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="yellow"/></svg>'), auto;
+    /* Cambia a un círculo amarillo al pasar el ratón */
+}
