@@ -219,21 +219,17 @@ header {
 }
 
 
-.footer {
-  position: absolute;
-  bottom: -100px;
-  left: 0;
-  width: 100%;
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  clear: both;
+footer {
+  background-color: rgb(1, 1, 180); 
+  color: white; 
+  margin-top: 1em ;
 }
 
-.footer-1 {
-  clear: left;
+footer .nav-link {
+  color: white;
 }
-.footer-2 {
-  clear: right;
+
+footer .nav-link:hover {
+  color: yellow;
 }
+
