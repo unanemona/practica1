@@ -242,7 +242,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(1, 1, 180);
+    background-color: rgb(255, 255, 255);
 }
 
 /* inicio paris */
@@ -256,9 +256,9 @@ body {
     margin-right: 2em;
     border-width: 0.3em;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(1, 1, 180);
     border-radius: 2em;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(1, 1, 180);
 }
 
 #texto_paris {
@@ -304,9 +304,9 @@ body {
     margin-right: 2em;
     border-width: 0.15em;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(1, 1, 180);
     border-radius: 2em;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(1, 1, 180);
 }
 
 #texto_london {
@@ -351,9 +351,9 @@ body {
     margin-right: 2em;
     border-width: 0.15em;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(1, 1, 180);
     border-radius: 2em;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(1, 1, 180);
 }
 
 #texto_online {
