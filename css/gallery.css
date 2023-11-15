@@ -1,26 +1,29 @@
-/*
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="white"/></svg>'), auto;
 }
 
-:root {
-    --color-primario: black;
-    --bg-primario: white;
+.nav-link {
+  position: relative;
 }
 
-body {
-    color: var(--color-primario);
-    background-color: var(--bg-primario);
+.nav-link:hover {
+cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" fill="yellow"/></svg>'), auto;
 }
 
-
-html, body{
-    text-align: center;
-    overflow-x: hidden;
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 2px; /* Ubica el subrayado debajo del texto */
+  left: 0;
+  width: 0;
+  border-bottom: 2px solid transparent; /* Empieza con un subrayado transparente */
+  transition: width 0.5s; /* Transición de la anchura para crear el efecto de subrayado */
 }
-*/
+
+.nav-link:hover::after {
+  width: 100%; /* Anima la anchura para crear el subrayado */
+  border-bottom-color: yellow; /* Cambia el color del subrayado al hacer hover */
+}
 
 
 /* inicio maquetación header */
@@ -390,6 +393,24 @@ body {
 
 /* fin maquetación contenido */
 
+
+
+
+/* inicio maquetación foter */
+
+footer {
+  background-color: rgb(1, 1, 180); 
+  color: white; 
+  margin-top: 1em ;
+}
+
+footer .nav-link {
+  color: white;
+}
+
+footer .nav-link:hover {
+  color: yellow;
+}
 
 
 
