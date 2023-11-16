@@ -1068,7 +1068,280 @@ footer .nav-link:hover {
 
 
 
+/* inicio responsive tamaño 4 (750px) */
 
+@media (max-width:700px){
+
+  /* inicio paris */
+
+  #paris{
+    border-radius: 1.3em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 0fr;
+  }
+
+  #texto_paris {
+    margin-right: 0em;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+  }
+
+  #texto_paris >h2  {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5em;  
+  }
+  
+  #texto_paris > p {
+    font-size: 0.7em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+
+
+  #gallery_paris {
+    margin-left: 0em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  #gallery_paris > img {
+    width: 100%;
+    border-radius: 1.3em;
+  }
+
+  /* inicio london */
+
+  #london{
+    border-radius: 1.3em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 0fr;
+  }
+
+  #texto_london {
+    margin-right: 0em;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+  }
+
+  #texto_london >h2  {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5em;  
+  }
+  
+  #texto_london > p {
+    font-size: 0.7em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+
+  #gallery_london {
+    margin-left: 0em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  #gallery_london > img {
+    width: 100%;
+    border-radius: 1.3em;
+  }
+
+  /* inicio online */
+
+  #online{
+    border-radius: 1.3em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 0fr;
+  }
+
+  #texto_online {
+    margin-right: 0em;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+  }
+
+  #texto_online >h2  {
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5em;  
+  }
+  
+  #texto_online > p {
+    font-size: 0.7em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+
+  #gallery_online {
+    margin-left: 0em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  #gallery_online > img {
+    width: 100%;
+    border-radius: 1.3em;
+  }
+
+  .boton {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 0.5em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    width: 6em;
+  }
+  
+  .boton p {
+    color: rgb(1, 1, 180);
+    font-size: 0.7em;
+    margin-top: 1.5em;
+  }
+
+}
+
+
+
+
+
+
+
+/* inicio responsive tamaño 4 (750px) */
+
+@media (max-width:700px){
+
+  /* inicio paris */
+
+  #paris{
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 0fr;
+  }
+
+  #texto_paris {
+    margin-right: 0em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: justify;
+  }
+
+  #texto_paris >h2  {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5em;  
+  }
+
+  #gallery_paris {
+    margin-left: 0em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  /* inicio london */
+
+  #london{
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 0fr;
+  }
+
+  #texto_london {
+    margin-right: 0em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: justify;
+  }
+
+  #texto_london >h2  {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5em;  
+  }
+  
+  #texto_london > p {
+    font-size: 0.7em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+
+  /* inicio online */
+
+  #online{
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 0fr;
+  }
+
+  #texto_online {
+    margin-right: 0em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: justify;
+  }
+
+  #texto_online >h2  {
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.5em;  
+  }
+  
+  #texto_online > p {
+    font-size: 0.7em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+
+  .boton {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 0.5em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    width: 6em;
+  }
+  
+  .boton p {
+    color: rgb(1, 1, 180);
+    font-size: 0.7em;
+    margin-top: 1.5em;
+  }
+}
 
 
 
