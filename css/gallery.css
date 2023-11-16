@@ -1505,7 +1505,49 @@ footer .nav-link:hover {
 
 
 
+/* inicio responsive tamaño (550px) */
 
+@media (max-width:700px){
+
+  .contenido-modal {
+    position: relative;
+    border-color: #ffffff;
+    border-radius: 2em;
+    background-color: rgb(1, 1, 180);
+    margin-top: 1em;
+    width: 90%;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+    }
+    
+    .contenido-modal h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    margin-top: 0.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.8em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal p{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #ffffff;
+    font-size: 0.6em;
+    }
+}
 
 
 
