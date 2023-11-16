@@ -634,6 +634,305 @@ footer .nav-link:hover {
   color: yellow;
 }
 
+/* inicio maquetación foter */
+
+
+
+
+
+
+
+
+
+
+/* inicio responsive tamaño 1 (2000px) */
+
+@media (max-width:2000px){
+
+  /* inicio paris */
+
+  #texto_paris {
+    margin-right: 3em;
+    margin-left: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: justify;
+  }
+
+  #gallery_paris {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+  }
+
+  #texto_london {
+    margin-right: 3em;
+    margin-left: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: justify;
+  }
+
+  #gallery_london {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+  }
+
+  #texto_online {
+    margin-right: 3em;
+    margin-left: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    text-align: justify;
+  }
+
+  #gallery_online {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+  }
+}
+
+
+
+
+
+/* inicio responsive tamaño 2 (1700px) */
+
+@media (max-width:1700px){
+
+  /* inicio paris */
+
+  #texto_paris >h2  {
+    font-size: 4.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.8em;
+  }
+  
+  #texto_paris > p {
+    font-size: 1em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+
+  .boton {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 1em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2em;
+    width: 10em;
+  }
+  
+  .boton p {
+    color: rgb(1, 1, 180);
+    font-size: 1.1em;
+    margin-top: 1em;
+  }
+
+  /* inicio london */
+
+  #texto_london >h2  {
+    font-size: 4.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.8em;
+  }
+  
+  #texto_london > p {
+    font-size: 1em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+
+  /* inicio online */
+
+  #texto_online >h2  {
+    font-size: 4.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.8em;
+  }
+  
+  #texto_online > p {
+    font-size: 1em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+}
+
+
+
+
+
+/* inicio responsive tamaño 3 (1300px) */
+
+@media (max-width:1300px){
+
+  /* inicio paris */
+
+  #texto_paris >h2  {
+    font-size: 3.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.8em;
+  }
+  
+  #texto_paris > p {
+    font-size: 0.8em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+
+  .boton {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 1em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2em;
+    width: 7em;
+  }
+  
+  .boton p {
+    color: rgb(1, 1, 180);
+    font-size: 0.8em;
+    margin-top: 1em;
+  }
+
+  /* inicio london */
+
+  #texto_london >h2  {
+    font-size: 3.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.8em;  }
+  
+  #texto_london > p {
+    font-size: 0.8em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+
+  /* inicio online */
+
+  #texto_online >h2  {
+    font-size: 3.5em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.8em;  
+  }
+  
+  #texto_online > p {
+    font-size: 0.8em;
+    padding-top: 0em;
+    color: #ffffff;
+  }
+}
+
+
+
+
+
+/* inicio responsive tamaño 4 (1100px) */
+
+@media (max-width:1100px){
+
+  /* inicio paris */
+
+  #paris{
+    border-radius: 1.5em;
+  }
+
+  #texto_paris {
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: justify;
+  }
+
+  #gallery_paris {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+  }
+
+  #gallery_paris > img {
+    width: 100%;
+    border-radius: 1.5em;
+  }
+
+  /* inicio london */
+
+  #london{
+    border-radius: 1.5em;
+  }
+
+  #texto_london {
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: justify;
+  }
+
+  #gallery_london {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+  }
+
+  #gallery_london > img {
+    width: 100%;
+    border-radius: 1.5em;
+  }
+
+  /* inicio online */
+
+  #online{
+    border-radius: 1.5em;
+  }
+
+  #texto_online {
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: justify;
+  }
+
+  #gallery_online {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+  }
+
+  #gallery_online > img {
+    width: 100%;
+    border-radius: 1.5em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
