@@ -220,9 +220,10 @@ header {
 
 
 footer {
+  width: 100%;
   background-color: rgb(1, 1, 180); 
   color: white; 
-  margin-top: 1em ;
+  margin-top: 0% ;
 }
 
 footer .nav-link {
@@ -233,3 +234,6 @@ footer .nav-link:hover {
   color: yellow;
 }
 
+.row .justify-content-center {
+  width: 100%;
+}

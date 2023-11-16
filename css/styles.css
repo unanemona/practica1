@@ -231,7 +231,12 @@ cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" hei
     max-width: 50%; /* Para asegurarse de que el GIF no se desborde del contenedor */
   }
 
+  .container-bottom {
+    width: 100%;
+    margin-top: 0%;
+  }
   footer {
+    width: 100%;
     background-color: rgb(1, 1, 180); 
     color: white; 
     margin-top: 1em ;
