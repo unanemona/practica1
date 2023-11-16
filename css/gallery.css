@@ -760,6 +760,44 @@ footer .nav-link:hover {
     padding-top: 0em;
     color: #ffffff;
   }
+
+  .contenido-modal {
+    position: relative;
+    border-color: #ffffff;
+    border-radius: 2em;
+    background-color: rgb(1, 1, 180);
+    margin-top: 1em;
+    width: 80%;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+    }
+    
+    .contenido-modal h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    margin-top: 0.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal p{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: #ffffff;
+    }
 }
 
 
@@ -824,6 +862,45 @@ footer .nav-link:hover {
     padding-top: 0em;
     color: #ffffff;
   }
+
+  .contenido-modal {
+    position: relative;
+    border-color: #ffffff;
+    border-radius: 2em;
+    background-color: rgb(1, 1, 180);
+    margin-top: 1em;
+    width: 80%;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+    }
+    
+    .contenido-modal h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    margin-top: 0.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal p{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: #ffffff;
+    font-size: 0.8em;
+    }
 }
 
 
@@ -1059,6 +1136,44 @@ footer .nav-link:hover {
     margin-top: 1.5em;
   }
 
+    .contenido-modal {
+    position: relative;
+    border-color: #ffffff;
+    border-radius: 2em;
+    background-color: rgb(1, 1, 180);
+    margin-top: 1em;
+    width: 80%;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+    }
+    
+    .contenido-modal h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    margin-top: 0.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal p{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: #ffffff;
+    font-size: 0.8em;
+    }
 }
 
 
@@ -1219,6 +1334,44 @@ footer .nav-link:hover {
     margin-top: 1.5em;
   }
 
+  .contenido-modal {
+    position: relative;
+    border-color: #ffffff;
+    border-radius: 2em;
+    background-color: rgb(1, 1, 180);
+    margin-top: 1em;
+    width: 80%;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+    }
+    
+    .contenido-modal h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    margin-top: 0.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    }
+    
+    .contenido-modal p{
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
+    color: #ffffff;
+    font-size: 0.8em;
+    }
 }
 
 
